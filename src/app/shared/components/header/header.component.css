@@ -1,0 +1,39 @@
+.header {
+    height: 8rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Brand Styles */
+.brand {
+    display: flex;
+    gap: .5rem;
+}
+
+.brand__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: inherit;
+    background-color: black;
+}
+
+.brand__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Languages */
+.languages {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.language {
+    padding: 0 1rem;
+    border: 1px solid black;
+}

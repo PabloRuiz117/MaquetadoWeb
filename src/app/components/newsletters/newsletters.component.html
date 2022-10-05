@@ -1,0 +1,13 @@
+<div class="newsletters__container">
+    <h2 class="newsletter__title">A monthly newsletter brought to you by (Company Name)</h2>
+    <div class="mt-5 newsletters">
+        <div *ngFor="let newletter of newsletters">
+            <div class="mb-4 newsletter">
+                <span>{{ newletter.descriptionImg }}</span>
+            </div>
+            <p class="m-0" *ngFor="let item of newletter.descriptions">
+                {{ item.description }}
+            </p>
+        </div>
+    </div>
+</div>

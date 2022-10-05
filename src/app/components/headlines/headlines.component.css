@@ -1,0 +1,40 @@
+.headline__title {
+    background: var(--gradient);
+    padding: .4rem;
+    color: #ffffff;
+}
+
+.headline__info {
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.headline__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.headline__description {
+    width: 90rem;
+    padding: 0 1rem;
+}
+
+.headline__description p {
+    text-align: justify;
+}
+
+.headline__actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline__actions button {
+    width: 10rem;
+    padding: .4rem;
+}
